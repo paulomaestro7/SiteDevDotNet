@@ -3,49 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "templated-fullmotion", "..\..\..\Downloads\templated-fullmotion", "{F74B5C25-7C40-422C-A0D4-C703DDA3AA99}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_9635"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Downloads\templated-fullmotion\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9635\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_9635"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\Downloads\templated-fullmotion\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9635\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "9635"
-		SlnRelativePath = "..\..\..\Downloads\templated-fullmotion\"
-	EndProjectSection
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "templated-industrious", "..\..\..\Downloads\templated-industrious", "{5C8ABA20-FD33-419F-A9FB-23C5683CCB1A}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_9636"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Downloads\templated-industrious\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9636\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_9636"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\Downloads\templated-industrious\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9636\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "9636"
-		SlnRelativePath = "..\..\..\Downloads\templated-industrious\"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteDevDotNet", "SiteDevDotNet\SiteDevDotNet.csproj", "{F2231919-5EFB-48C8-BCAF-8276DA64CFCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiteDevDotNet", "SiteDevDotNet\SiteDevDotNet.csproj", "{F2231919-5EFB-48C8-BCAF-8276DA64CFCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,14 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F74B5C25-7C40-422C-A0D4-C703DDA3AA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F74B5C25-7C40-422C-A0D4-C703DDA3AA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F74B5C25-7C40-422C-A0D4-C703DDA3AA99}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{F74B5C25-7C40-422C-A0D4-C703DDA3AA99}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{5C8ABA20-FD33-419F-A9FB-23C5683CCB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C8ABA20-FD33-419F-A9FB-23C5683CCB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C8ABA20-FD33-419F-A9FB-23C5683CCB1A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C8ABA20-FD33-419F-A9FB-23C5683CCB1A}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{F2231919-5EFB-48C8-BCAF-8276DA64CFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F2231919-5EFB-48C8-BCAF-8276DA64CFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2231919-5EFB-48C8-BCAF-8276DA64CFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
