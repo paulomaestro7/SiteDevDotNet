@@ -5,11 +5,61 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\font-awesome.min.css" />
+    <Content Remove="wwwroot\css\images\arrow.svg" />
+    <Content Remove="wwwroot\css\main.css" />
+    <Content Remove="wwwroot\fonts\fontawesome-webfont.eot" />
+    <Content Remove="wwwroot\fonts\fontawesome-webfont.svg" />
+    <Content Remove="wwwroot\fonts\fontawesome-webfont.ttf" />
+    <Content Remove="wwwroot\fonts\fontawesome-webfont.woff" />
+    <Content Remove="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <Content Remove="wwwroot\fonts\FontAwesome.otf" />
+    <Content Remove="wwwroot\images\banner.jpg" />
+    <Content Remove="wwwroot\images\pic01.jpg" />
+    <Content Remove="wwwroot\images\pic02.jpg" />
+    <Content Remove="wwwroot\images\pic03.jpg" />
+    <Content Remove="wwwroot\images\pic04.jpg" />
+    <Content Remove="wwwroot\images\pic05.jpg" />
+    <Content Remove="wwwroot\images\pic06.jpg" />
+    <Content Remove="wwwroot\js\jquery.min.js" />
+    <Content Remove="wwwroot\js\jquery.poptrox.min.js" />
+    <Content Remove="wwwroot\js\jquery.scrolly.min.js" />
+    <Content Remove="wwwroot\js\main.js" />
+    <Content Remove="wwwroot\js\skel.min.js" />
+    <Content Remove="wwwroot\js\util.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\font-awesome.min.css" />
+    <None Include="wwwroot\css\images\arrow.svg" />
+    <None Include="wwwroot\css\main.css" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\images\banner.jpg" />
+    <None Include="wwwroot\images\pic01.jpg" />
+    <None Include="wwwroot\images\pic02.jpg" />
+    <None Include="wwwroot\images\pic03.jpg" />
+    <None Include="wwwroot\images\pic04.jpg" />
+    <None Include="wwwroot\images\pic05.jpg" />
+    <None Include="wwwroot\images\pic06.jpg" />
+    <None Include="wwwroot\js\jquery.min.js" />
+    <None Include="wwwroot\js\jquery.poptrox.min.js" />
+    <None Include="wwwroot\js\jquery.scrolly.min.js" />
+    <None Include="wwwroot\js\main.js" />
+    <None Include="wwwroot\js\skel.min.js" />
+    <None Include="wwwroot\js\util.js" />
   </ItemGroup>
 
 </Project>

@@ -1,106 +1,72 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Dev Dot Net</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="~/css/main.css" />
+</head>
+<body id="top">
+    <section id="banner" data-video="~/images/banner.jpg">
+        <div class="inner">
+            <header>
+                <h1>Dev Dot Net</h1>
+                <p>
+                    Muito mais que uma comunidade<br />
+                    Nosso foco é compartilhar e disseminar conhecimento. Amor por pessoas e paixão pela tecnologia.
+                </p>
+            </header>
+            <a href="#main" class="more">Videos</a>
+        </div>
+    </section>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="~/images/banner1.svg" alt="ASP.NET" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Learn how to build ASP.NET apps that can run anywhere.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner2.svg" alt="Visual Studio" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    There are powerful new features in Visual Studio for building modern web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner3.svg" alt="Package Management" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Bring in libraries from NuGet and npm, and automate tasks using Grunt or Gulp.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525029&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner4.svg" alt="Microsoft Azure" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
 
-<div class="row">
-    <div class="col-md-3">
-        <h2>Application uses</h2>
-        <ul>
-            <li>Sample pages using ASP.NET Core MVC</li>
-            <li>Theming using <a href="https://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
-        </ul>
+            <!-- Boxes -->
+            <div class="thumbnails">
+
+                <div class="box">
+                    <a href="https://youtu.be/a0mbVEWqSew" class="image fit"><img src="~/images/github.jpg" alt="Clone GitHub" /></a>
+                    <div class="inner">
+                        <h3>Clone GitHub</h3>
+                        <p>Como clonar nosso projeto do GitHub. IDE de desenvolvimento Visual Studio.</p>
+                        <a href="https://youtu.be/a0mbVEWqSew" class="button fit" data-poptrox="youtube,800x400">Assistir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-3">
-        <h2>How to</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Overview</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Run &amp; Deploy</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
-        </ul>
-    </div>
-</div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <h2>Sobre o programa</h2>
+            <p>
+                A comunidade Dev Dot Net é uma iniciativa que nasceu dentro da Campus Party 2018, Liga dos Desenvolvedores, seu escopo inicial tinha como objetivo atender adolescentes de classe baixa, entre 14 e 16 anos, estudantes com boas notas, e inseri-los no mercado de trabalho. Devido a complexibilidade do projeto, falta de profissionais especialista e recursos, acabamos falhando.
+                Hoje a proposta é realizar o programa de forma Online e encontro mensal para a interação do time em treinamento.
+            </p>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/paulomaestro/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+                <li><a href="https://devdotnet.slack.com/" class="icon fa-slack"><span class="label">Slack</span></a></li>
+                <li><a title="+55 41 99757-7405" class="icon fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+                <li><a href="https://github.com/paulomaestro7/devdotnet" class="icon fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="mailto:maestro@paulomaestro.com.br" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                <li><a href="http://www.cursosxamarinonline.com.br/" class="icon fa-book"><span class="label">Cursos</span></a></li>
+                <li><a href="https://www.youtube.com/channel/UC1WpnkLOWiVcKgxjI13aYCQ" class="icon fa-youtube"><span class="label">Canal</span></a></li>
+
+            </ul>
+            <p class="copyright">&copy; Desenvolvido e mantido por: <a href="https://paulomaestro.com.br">Paulo Maestro</a>.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/jquery.scrolly.min.js"></script>
+    <script src="~/js/jquery.poptrox.min.js"></script>
+    <script src="~/js/skel.min.js"></script>
+    <script src="~/js/util.js"></script>
+    <script src="~/js/main.js"></script>
+</body>
+</html>
